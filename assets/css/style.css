@@ -1,18 +1,19 @@
-* {
-	box-sizing: content-box;
-	padding: 0;
-	margin: 0;
-}
+/* STYLING FOR THE HEADER AND NAV BELOW */
 
 body {
 	background-color: black;
 }
 
 header {
-	padding: 20px;
 	font-family: 'Amagro', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	background-color: rgb(36, 4, 4);
 	color: #ffffff;
+}
+
+#background-image {
+	background-image: url("/assets/media/photo-1614292253389-bd2c1f89cd0e.avif");
+	width: 100vp;
+	height: 100vp;
 }
 
 header h1 {
@@ -25,7 +26,7 @@ header h1 {
 }
 
 header nav {
-	padding-top: 15px;
+	padding-top: 40px;
 	margin-right: 20px;
 	float: right;
 	font-family: 'Amagro', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -38,28 +39,52 @@ header nav a {
 	color: white;
 }
 
-/* This ends the CSS for the header, which includes the h1 and nav elements. */
+
+
+
+
+
+/* STYLING FOR SEMANTIC ELEMENTS */
 
 main {
-	display: flex;
-	align-items: stretch;
-	flex-wrap: wrap;
 	color: white;
 }
 
-h2 {
-	display: flex;
-	border: 1px solid white;
-	height: 30vw;
-	width: 20%;
-	flex-direction: row;
-	flex-wrap: wrap;
+.profilepic {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	padding-left: 5px;
+	padding-top: 20px;
 }
 
-p {
-	border: 1px none;
-	height: 30vw;
-	width: 80vw;
-	flex-direction: row;
-	flex-wrap: wrap;
+
+/* STYLING FOR SECTIONS */
+
+.section1, .section2 {
+	display: flex;
+}
+
+.aboutme {
+	flex: 1 0 auto;
+	padding: 10px;
+	border-right: 1px solid silver;
+	height: 200px;
+	font-size: 200%
+}
+
+.work {
+		flex: 1 0 auto;
+		padding: 10px;
+		border-right: 1px solid silver;
+		height: 200px;
+		font-size: 200%
+	}
+
+
+.aboutme-p {
+	flex: 2 0 auto;
+	width: 80%;
+	padding: 10px;
+	font-size: 125%
 }
