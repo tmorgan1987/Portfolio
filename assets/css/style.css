@@ -1,5 +1,3 @@
-/* STYLING FOR THE HEADER AND NAV BELOW */
-
 body {
 	background-color: black;
 }
@@ -11,7 +9,7 @@ header {
 }
 
 #background-image {
-	background-image: url("/assets/media/photo-1614292253389-bd2c1f89cd0e.avif");
+	background-image: url("/assets/media/background.avif");
 	width: 100vp;
 	height: 100vp;
 }
@@ -21,7 +19,6 @@ header h1 {
 	font-size: 38px;
 	padding: 0px 15px 0px 15px;
 	border: 1px solid darkgray;
-	background: darkgray;
 	border-radius: 30px;
 }
 
@@ -39,52 +36,69 @@ header nav a {
 	color: white;
 }
 
-
-
-
-
-
-/* STYLING FOR SEMANTIC ELEMENTS */
-
 main {
 	color: white;
 }
 
+.h2a {
+	text-align: center;
+	font-size: 28px;
+	margin-left: 35%;
+	margin-right: 35%;
+	border: 1px solid darkgray;
+	border-radius: 30px;
+}
+
 .profilepic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px none;
 	border-radius: 50%;
-	height: 150px;
-	width: 150px;
-	padding-left: 5px;
-	padding-top: 20px;
+	
 }
-
-
-/* STYLING FOR SECTIONS */
-
-.section1, .section2 {
-	display: flex;
-}
-
-.aboutme {
-	flex: 1 0 auto;
-	padding: 10px;
-	border-right: 1px solid silver;
-	height: 200px;
-	font-size: 200%
-}
-
-.work {
-		flex: 1 0 auto;
-		padding: 10px;
-		border-right: 1px solid silver;
-		height: 200px;
-		font-size: 200%
-	}
-
 
 .aboutme-p {
-	flex: 2 0 auto;
-	width: 80%;
-	padding: 10px;
-	font-size: 125%
+	font-family: 'Amagro', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.h2b {
+	text-align: center;
+	font-size: 28px;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding: 20px;
+	border: 1px solid darkgray;
+	border-radius: 30px;
+}
+
+.horiseonimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid white;
+	border-radius: 30px;
+}
+
+
+.inline-imgs {
+	margin-top: 1%;
+	margin-left: 25%;
+	margin-right: 10%;
+	margin-bottom: 1%;
+}
+
+.otherimgs {
+	display: inline-block;
+	border: 3px solid white;
+	border-radius: 30px;
+}
+
+footer {
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Amagro', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
